@@ -1,5 +1,5 @@
 if (EMSCRIPTEN)
-    cmake_minimum_required(VERSION 3.13) # emscripten uses target_link_options (cmake 3.13+)
+    cmake_minimum_required(VERSION 3.15) # emscripten uses target_link_options (cmake 3.13+)
 else()
     cmake_minimum_required(VERSION 3.10)
 endif()
